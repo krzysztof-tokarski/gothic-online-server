@@ -17,14 +17,14 @@ Base with some placeholders below.
 	]]>
 	</description>
 
+		<!--GUI-->
+	<import src="gui-framework/gui.xml" />
+
 	<!-- Default -->
 	<import src="default/scripts.xml" />
 
 	<!-- Gamemode -->
 	<import src="gamemodes/prototype/scripts.xml" />
-
-	<!--GUI-->
-	<import src="gui-framework/gui.xml" />
 
 	<!-- Ids -->
 	<items src="items.xml" />
