@@ -1,0 +1,6 @@
+<server>
+	<script src="shared-scripts/packet-id.nut" type="shared" />
+
+	<script src="client-scripts/vob-lerp.nut" type="client" />
+	<script src="server-scripts/vob-lerp.nut" type="server" />
+</server>

@@ -1,0 +1,6 @@
+<server>
+	<script src="shared-scripts/packet-id.nut" type="shared" />
+
+	<script src="client-scripts/call-function.nut" type="client" />
+	<script src="server-scripts/call-function.nut" type="server" />
+</server>

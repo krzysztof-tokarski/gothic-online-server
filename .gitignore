@@ -1,0 +1,12 @@
+/cache/
+
+/data.bin
+/server.log
+
+/*.so
+/*.dll
+
+/G2O_Server*
+
+config.xml
+

@@ -1,0 +1,8 @@
+<server>
+	<!-- Client side -->
+	<script src="client-scripts/main.nut" type="client" />
+	<!-- Server side -->
+	<script src="server-scripts/player.nut" type="server" />
+	<script src="server-scripts/playerlist.nut" type="server" />
+	<script src="server-scripts/main.nut" type="server" />
+</server>
