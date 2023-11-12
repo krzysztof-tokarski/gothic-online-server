@@ -2,8 +2,6 @@ function onPlayerJoin(pid)
 {
 	sendMessageToAll(0, 255, 0, getPlayerName(pid) + " connected with the server.")
 
-	// getPlayerName(pid)
-
 	// Stats
 	setPlayerHealth(pid, 1000)
 	setPlayerMaxHealth(pid, 1000)
