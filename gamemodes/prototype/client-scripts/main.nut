@@ -22,11 +22,11 @@ function onCommand(cmd, params)
 	case "q":
 		exitGame()
 		break
-		
+
 	case "pos":
 		local vec = getPlayerPosition(heroId)
 		local angle = getPlayerAngle(heroId)
-		
+
 		print("x: " + vec.x + " y: " + vec.y + " z: " + vec.z + " angle: " + angle)
 		break
 	}
