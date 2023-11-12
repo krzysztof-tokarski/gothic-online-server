@@ -19,14 +19,17 @@ Base with some placeholders below.
 
 	<!-- Default -->
 	<import src="default/scripts.xml" />
-	
+
 	<!-- Gamemode -->
 	<import src="gamemodes/prototype/scripts.xml" />
-	
+
+	<!--GUI-->
+	<import src="gui-framework/gui.xml" />
+
 	<!-- Ids -->
 	<items src="items.xml" />
 	<mds src="mds.xml" />
-	
+
 	<wayfile map="NEWWORLD" src="waypoints/newworld.xml" />
 	<wayfile map="OLDWORLD" src="waypoints/oldworld.xml" />
 	<wayfile map="ADDONWORLD" src="waypoints/addonworld.xml" />
