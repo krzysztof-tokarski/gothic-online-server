@@ -73,14 +73,23 @@ local confirmButton = GUI.Button({
 	collection = window
 })
 
-confirmButton.bind(EventType.Click, function(self)
-{
-	print("confirm click")
-	local id = idInput.getText();
-	local reason = reasonInput.getText();
-
-	print("Kick player no " + id + " for " + reason)
+confirmButton.bind(EventType.Click, function(self) {
+	kickPlayer()
 })
+
+function kickPlayer() {
+	local id = idInput.getText()
+	local reason = reasonInput.getText()
+
+	local packet = Packet()
+
+	packet.writeUInt8(PacketId.KICK_PLAYER)
+
+	packet.writeString(id)
+	packet.writeString(reason)
+
+	packet.send(RELIABLE)
+}
 // endregion KickForm
 
 // region Misc
